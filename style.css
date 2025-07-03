@@ -1,5 +1,3 @@
-/* Paleta moderna: oscuro + acentos azules */
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #121212; /* Fondo oscuro */
@@ -16,7 +14,7 @@ h1 {
 }
 
 p {
-  color: #cccccc;
+  color: #cccccc; /* Gris claro */
   font-size: 1.1em;
   margin-bottom: 30px;
 }
@@ -32,11 +30,11 @@ p {
 }
 
 .proyecto:hover {
-  transform: translateY(-5px); /* Animación leve */
+  transform: translateY(-5px); /* Animación */
 }
 
 .proyecto h2 {
-  color: #00e5ff;
+  color: #00e5ff; /* Azul brillante */
   margin-bottom: 10px;
 }
 
@@ -47,6 +45,6 @@ a {
 }
 
 a:hover {
-  color: #66d9ff;
+  color: #66d9ff; /* Aclarar al pasar el mouse */
   text-decoration: underline;
 }
