@@ -1,0 +1,52 @@
+/* Paleta moderna: oscuro + acentos azules */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Fondo oscuro */
+  color: #e0e0e0;            /* Texto claro */
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #00bfff; /* Azul vibrante */
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #cccccc;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.proyecto {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* Tarjetas oscuras */
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.proyecto:hover {
+  transform: translateY(-5px); /* Animación leve */
+}
+
+.proyecto h2 {
+  color: #00e5ff;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1faaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #66d9ff;
+  text-decoration: underline;
+}
